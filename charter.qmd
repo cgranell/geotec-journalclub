@@ -9,7 +9,7 @@ format:
     toc: true
     toc-depth: 2
     theme: cosmo
-  pdf:
+  typst:
     toc: false
     papersize: a4
     geometry: margin=2.5cm
