@@ -1,6 +1,6 @@
 ---
-title: "GEOTEC Journal Club"
-subtitle: "Paper selection criteria"
+title: "Paper selection criteria"
+subtitle: "GEOTEC Journal Club"
 author: "GEOTEC research group"
 date: last-modified
 lang: en

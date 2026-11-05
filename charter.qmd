@@ -1,6 +1,6 @@
 ---
-title: "GEOTEC Journal Club"
-subtitle: "Charter"
+title: "Charter"
+subtitle: "GEOTEC Journal Club"
 author: "GEOTEC research group"
 date: last-modified
 lang: en

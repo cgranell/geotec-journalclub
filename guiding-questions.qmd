@@ -1,6 +1,6 @@
 ---
-title: "GEOTEC Journal Club"
-subtitle: "Guiding questions"
+title: "Guiding questions"
+subtitle: "GEOTEC Journal Club"
 author: "GEOTEC research group"
 date: last-modified
 lang: en
