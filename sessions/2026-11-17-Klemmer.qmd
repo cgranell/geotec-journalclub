@@ -31,9 +31,9 @@ format:
   html:
     toc: true
     theme: cosmo
-  pdf:
-    papersize: a4
-    geometry: margin=2.5cm
+  #pdf:
+    #papersize: a4
+    #geometry: margin=2.5cm
 ---
 
 ## Session details
