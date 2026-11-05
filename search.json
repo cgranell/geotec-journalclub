@@ -2,15 +2,148 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Journal Club",
+    "title": "Journal Club – Session minutes",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\nCategories\n\n\n\nDescription\n\n\n\n\n\n\n\n\nPaper title\n\n\nCitation\n\n\nclub\n\n\nBrief summary\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nSubtitle\n\n\n\nCategories\n\n\n\nDescription\n\n\n\n\n\n\n\n\nKlemmer et al., 2026\n\n\nSession 01 · 2026-11-17\n\n\njournal-club, earth-embeddings\n\n\nEarth Embeddings: Toward artificial intelligence-centric representations of our planet\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "sessions/202611/index.html",
-    "href": "sessions/202611/index.html",
-    "title": "Paper title",
+    "objectID": "charter.html",
+    "href": "charter.html",
+    "title": "GEOTEC Journal Club",
     "section": "",
-    "text": "Paper Citation\n\n\nPaticipants\n\n\nSummary"
+    "text": "The GEOTEC Journal Club is a monthly, 60–70 minute session where members discuss one paper to foster critical reading, debate and presentation: judging its methods, assumptions, results and contribution, as well as its academic writing style."
+  },
+  {
+    "objectID": "charter.html#purpose",
+    "href": "charter.html#purpose",
+    "title": "GEOTEC Journal Club",
+    "section": "Purpose",
+    "text": "Purpose\n\nWhat it is\n\nA space to debate a paper’s methods, assumptions, validity and writing, and to practise arguing about them.\n\nWhat it is not\n\nA way to keep up to date with a specific field or subfield, although every paper has a clear link to GIScience. Members work on different topics, so selected papers will not always connect to each member’s research.\n\nWhy it matters\n\nIt develops transferable competences in the ResearchComp framework, mainly critical thinking, analytical thinking and evaluating research."
+  },
+  {
+    "objectID": "charter.html#who-takes-part",
+    "href": "charter.html#who-takes-part",
+    "title": "GEOTEC Journal Club",
+    "section": "Who takes part",
+    "text": "Who takes part\nOpen to all GEOTEC members: PhD students, faculty and other research profiles. Everyone takes a turn as facilitator."
+  },
+  {
+    "objectID": "charter.html#format",
+    "href": "charter.html#format",
+    "title": "GEOTEC Journal Club",
+    "section": "Format",
+    "text": "Format\n\n\n\nTable 1: Session format\n\n\n\n\n\n\n\n\n\nItem\nRule\n\n\n\n\nFrequency\nMonthly\n\n\nDuration\n60–70 minutes\n\n\nPapers per session\nOne\n\n\nPaper length\nMaximum 15 pages\n\n\nAnnouncement\nAt least one week before the session\n\n\nFacilitator\nOne person per session, on a rotation published at the start of each semester\n\n\n\n\n\n\nEach session follows the same structure:\n\n\n\nTable 2: Session structure\n\n\n\n\n\nBlock\nLed by\nTime\n\n\n\n\nContext\nFacilitator\n5 min\n\n\nSummary\nFacilitator\n10 min\n\n\nCritical discussion\nEveryone\n30–40 min\n\n\nTakeaways\nEveryone\n5–10 min"
+  },
+  {
+    "objectID": "charter.html#roles",
+    "href": "charter.html#roles",
+    "title": "GEOTEC Journal Club",
+    "section": "Roles",
+    "text": "Roles\n\nFacilitator\n\nSelects the paper using the shared selection criteria, announces it one week ahead, gives the context and summary, and guides the discussion.\n\nAttendees\n\nRead the paper before the session and bring one question or critique."
+  },
+  {
+    "objectID": "charter.html#ground-rules",
+    "href": "charter.html#ground-rules",
+    "title": "GEOTEC Journal Club",
+    "section": "Ground rules",
+    "text": "Ground rules\n\n\n\n\n\n\n\nEveryone reads the paper, not only the facilitator.\nCritique the paper, not the people.\n“I didn’t understand X” is a welcome contribution.\nThe shared guiding questions frame every discussion."
+  },
+  {
+    "objectID": "charter.html#record-and-review",
+    "href": "charter.html#record-and-review",
+    "title": "GEOTEC Journal Club",
+    "section": "Record and review",
+    "text": "Record and review\n\nEach session is archived on the group’s Quarto website: paper, facilitator, date, slides and key takeaways (see the minutes template).\nAt the end of each semester (6 sessions), members hold a short retrospective and may propose changes to this charter."
+  },
+  {
+    "objectID": "paper-selection-criteria.html",
+    "href": "paper-selection-criteria.html",
+    "title": "GEOTEC Journal Club",
+    "section": "",
+    "text": "The facilitator picks one paper of at most 15 pages, guided by the two core criteria below, and announces it to all GEOTEC members at least one week before the session."
+  },
+  {
+    "objectID": "paper-selection-criteria.html#core-criteria",
+    "href": "paper-selection-criteria.html#core-criteria",
+    "title": "GEOTEC Journal Club",
+    "section": "Core criteria",
+    "text": "Core criteria\nEvery selected paper should meet both criteria:\n\n\n\nTable 1: Core selection criteria\n\n\n\n\n\n\n\n\n\nCriterion\nWhat to look for\n\n\n\n\nRelevance to the group\nA clear link to GIScience; topic, method or data of interest to several GEOTEC members, not only the facilitator\n\n\nMethodological interest\nA method, design or validation approach worth dissecting, even outside members’ own topics\n\n\n\n\n\n\n\n\n\n\n\n\nTipWhy these criteria?\n\n\n\nBecause the club trains critical reading rather than keeping up with a topic, a paper with rich methods or instructive writing is a better pick than one that is merely new or close to your own thesis."
+  },
+  {
+    "objectID": "paper-selection-criteria.html#practical-requirements",
+    "href": "paper-selection-criteria.html#practical-requirements",
+    "title": "GEOTEC Journal Club",
+    "section": "Practical requirements",
+    "text": "Practical requirements\n\nMaximum 15 pages (excluding references and appendices)\nAccessible to all members: open access, or a PDF shared with everyone\nReadable by non-specialists in the group with reasonable effort\nNot already discussed in a previous session (check the archive)"
+  },
+  {
+    "objectID": "paper-selection-criteria.html#occasional-picks",
+    "href": "paper-selection-criteria.html#occasional-picks",
+    "title": "GEOTEC Journal Club",
+    "section": "Occasional picks",
+    "text": "Occasional picks\n\nClassic or landmark papers that everyone should know\nRecent preprints\nControversial papers, which often teach the most about critical reading and debate"
+  },
+  {
+    "objectID": "paper-selection-criteria.html#announcement",
+    "href": "paper-selection-criteria.html#announcement",
+    "title": "GEOTEC Journal Club",
+    "section": "Announcement",
+    "text": "Announcement\nAt least one week before the session, the facilitator sends the following to all members (Geoinfo mailing list):\n\nFull reference and DOI or link to the PDF\nOne or two sentences on why this paper was chosen\nA reminder to bring one question or critique, using the shared guiding questions, to the session\n\n\n\n\n\n\n\nNoteAnnouncement email template\n\n\n\n\n\n\nSubject: GEOTEC Journal Club – session date – Paper title\nDear all,\nFor our next Journal Club session (date, time, room), we will discuss:\nAuthor(s) (Year). Title. Journal. DOI/link\nWhy this paper: one or two sentences.\nPlease read it before the session and bring one question or critique, using the shared guiding questions.\nFacilitator name"
+  },
+  {
+    "objectID": "sessions/2026-11-17-Klemmer.html",
+    "href": "sessions/2026-11-17-Klemmer.html",
+    "title": "Klemmer et al., 2026",
+    "section": "",
+    "text": "Session\n1\n\n\nDate and time\nNovember 17, 2026, 11:00–12:15\n\n\nLocation\n?meta:session.location\n\n\nFacilitator\nCarlos Granell\n\n\nNote-taker\nCarlos Granell\n\n\n\nAttendees: Name 1, Name 2, Name 3, … (n = ?)\nApologies: Name, …"
+  },
+  {
+    "objectID": "sessions/2026-11-17-Klemmer.html#session-details",
+    "href": "sessions/2026-11-17-Klemmer.html#session-details",
+    "title": "Klemmer et al., 2026",
+    "section": "",
+    "text": "Session\n1\n\n\nDate and time\nNovember 17, 2026, 11:00–12:15\n\n\nLocation\n?meta:session.location\n\n\nFacilitator\nCarlos Granell\n\n\nNote-taker\nCarlos Granell\n\n\n\nAttendees: Name 1, Name 2, Name 3, … (n = ?)\nApologies: Name, …"
+  },
+  {
+    "objectID": "sessions/2026-11-17-Klemmer.html#paper-discussed",
+    "href": "sessions/2026-11-17-Klemmer.html#paper-discussed",
+    "title": "Klemmer et al., 2026",
+    "section": "Paper discussed",
+    "text": "Paper discussed\nKlemmer, K., Rolf, E., Rußwurm, M., Camps-Valls, G., et al. (2026). Earth Embeddings: Toward artificial intelligence-centric representations of our planet. IEEE Geoscience and Remote Sensing Magazine. &lt;https://doi.org/10.1109/MGRS.2026.3710416&gt;\nPick type: regular · Pages: 14\nWhy it was chosen (from the facilitator’s announcement):\nThis paper explains Earth embeddings, vector representations of geographic locations, as a new way to store and analyse geospatial data, which goes to the heart of how GIScience, leveraged by Geospatial Foundation Models, represents space."
+  },
+  {
+    "objectID": "sessions/2026-11-17-Klemmer.html#summary-of-the-paper",
+    "href": "sessions/2026-11-17-Klemmer.html#summary-of-the-paper",
+    "title": "Klemmer et al., 2026",
+    "section": "Summary of the paper",
+    "text": "Summary of the paper\nThree to five sentences in the group’s own words: research question, data, method, main result."
+  },
+  {
+    "objectID": "sessions/2026-11-17-Klemmer.html#discussion",
+    "href": "sessions/2026-11-17-Klemmer.html#discussion",
+    "title": "Klemmer et al., 2026",
+    "section": "Discussion",
+    "text": "Discussion\n\nScientific contribution\n\nWhat is new? Is the claim supported by the evidence?\nStrengths:\nWeaknesses / limitations (acknowledged or not by the authors):\n\n\n\nMethods, design and validation\n\nIs the method appropriate to the question? Could it be reproduced (data, code, parameters)?\nHow is the result validated? What alternative design would we have chosen?\n\n\n\nWriting and presentation\n\nStructure, clarity of the abstract and introduction, use of figures and tables.\nSomething worth imitating in our own papers:\nSomething to avoid:\n\n\n\nMembers’ questions and critiques\n\n\n\nMember\nQuestion or critique\nGroup response / outcome"
+  },
+  {
+    "objectID": "sessions/2026-11-17-Klemmer.html#key-takeaways",
+    "href": "sessions/2026-11-17-Klemmer.html#key-takeaways",
+    "title": "Klemmer et al., 2026",
+    "section": "Key takeaways",
+    "text": "Key takeaways\n\nMain lesson for critical reading\nMain lesson for our own writing or research practice\n…"
+  },
+  {
+    "objectID": "sessions/2026-11-17-Klemmer.html#action-items",
+    "href": "sessions/2026-11-17-Klemmer.html#action-items",
+    "title": "Klemmer et al., 2026",
+    "section": "Action items",
+    "text": "Action items\n\n\n\nAction\nOwner\nDue"
+  },
+  {
+    "objectID": "sessions/2026-11-17-Klemmer.html#next-session",
+    "href": "sessions/2026-11-17-Klemmer.html#next-session",
+    "title": "Klemmer et al., 2026",
+    "section": "Next session",
+    "text": "Next session\n\n\n\nDate\nYYYY-MM-DD\n\n\nFacilitator\nName Surname\n\n\nPaper announcement due\none week before the session\n\n\n\n\n\n\n\n\n\nNoteSession feedback (optional)\n\n\n\n\n\nWhat worked well in the format? What should change next time?"
   }
 ]

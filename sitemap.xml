@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cgranell.github.io/geotec-journalclub/index.html</loc>
-    <lastmod>2026-11-05T09:20:00.031Z</lastmod>
+    <lastmod>2026-11-05T09:54:15.912Z</lastmod>
   </url>
   <url>
-    <loc>https://cgranell.github.io/geotec-journalclub/sessions/202611/index.html</loc>
-    <lastmod>2026-11-05T09:20:00.031Z</lastmod>
+    <loc>https://cgranell.github.io/geotec-journalclub/charter.html</loc>
+    <lastmod>2026-11-05T09:54:15.912Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/geotec-journalclub/paper-selection-criteria.html</loc>
+    <lastmod>2026-11-05T09:54:15.912Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/geotec-journalclub/sessions/2026-11-17-Klemmer.html</loc>
+    <lastmod>2026-11-05T09:54:15.912Z</lastmod>
   </url>
 </urlset>
