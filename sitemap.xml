@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cgranell.github.io/geotec-journalclub/index.html</loc>
-    <lastmod>2026-11-05T10:53:54.958Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cgranell.github.io/geotec-journalclub/guiding-questions.html</loc>
-    <lastmod>2026-11-05T10:53:54.958Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cgranell.github.io/geotec-journalclub/paper-selection-criteria.html</loc>
-    <lastmod>2026-11-05T10:53:54.958Z</lastmod>
+    <loc>https://cgranell.github.io/geotec-journalclub/sessions/2026-11-17-Klemmer.html</loc>
+    <lastmod>2026-11-05T10:59:12.810Z</lastmod>
   </url>
   <url>
     <loc>https://cgranell.github.io/geotec-journalclub/charter.html</loc>
-    <lastmod>2026-11-05T10:53:54.958Z</lastmod>
+    <lastmod>2026-11-05T10:59:12.810Z</lastmod>
   </url>
   <url>
-    <loc>https://cgranell.github.io/geotec-journalclub/sessions/2026-11-17-Klemmer.html</loc>
-    <lastmod>2026-11-05T10:53:54.958Z</lastmod>
+    <loc>https://cgranell.github.io/geotec-journalclub/guiding-questions.html</loc>
+    <lastmod>2026-11-05T10:59:12.810Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/geotec-journalclub/paper-selection-criteria.html</loc>
+    <lastmod>2026-11-05T10:59:12.810Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cgranell.github.io/geotec-journalclub/index.html</loc>
+    <lastmod>2026-11-05T10:59:12.810Z</lastmod>
   </url>
 </urlset>
