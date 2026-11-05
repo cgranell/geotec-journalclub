@@ -31,7 +31,7 @@ format:
   html:
     toc: true
     theme: cosmo
-  pdf:
+  typst:
     papersize: a4
     geometry: margin=2.5cm
 ---
@@ -42,7 +42,6 @@ format:
 |:--|:--|
 | **Session** | {{< meta session.number >}} |
 | **Date and time** | {{< meta date >}}, {{< meta session.time >}} |
-| **Location** | {{< meta session.location >}} |
 | **Facilitator** | {{< meta session.facilitator >}} |
 | **Note-taker** | {{< meta session.note-taker >}} |
 

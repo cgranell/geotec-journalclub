@@ -10,10 +10,10 @@ format:
     toc-depth: 2
     number-sections: false
     theme: cosmo
-  #pdf:
-  #  toc: false
-  #  papersize: a4
-  #  geometry: margin=2.5cm
+  typst:
+    toc: false
+    papersize: a4
+    geometry: margin=2.5cm
 ---
 
 The facilitator picks **one paper of at most 15 pages**, guided by the two core criteria below, and announces it to all GEOTEC members **at least one week before the session**.

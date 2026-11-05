@@ -20,7 +20,7 @@ website:
 
     right:
       - href: index.qmd
-        text: List of papers
+        text: Session minutes
 
 
 format:

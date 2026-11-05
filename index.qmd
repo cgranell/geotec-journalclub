@@ -1,8 +1,10 @@
 ---
-title: "Journal Club – Session minutes"
+title: "Papers – Session minutes"
 listing:
   contents: "sessions/*.qmd"
-  sort: "title asc"
+  sort: 
+    - "date"
+    - "title asc"
   type: table
   categories: true
   fields: [title,  subtitle, categories, description]
