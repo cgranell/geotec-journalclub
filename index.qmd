@@ -1,7 +1,7 @@
 ---
-title: "Journal Club"
+title: "Journal Club – Session minutes"
 listing:
-  contents: "sessions/*/index.qmd"
+  contents: "sessions/*.qmd"
   sort: "title asc"
   type: table
   categories: true

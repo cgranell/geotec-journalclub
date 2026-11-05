@@ -1,0 +1,79 @@
+---
+title: "GEOTEC Journal Club"
+subtitle: "Charter"
+author: "GEOTEC research group"
+date: last-modified
+lang: en
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: cosmo
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: margin=2.5cm
+---
+
+The GEOTEC Journal Club is a **monthly, 60–70 minute session** where members discuss **one paper** to foster critical reading, debate and presentation: judging its methods, assumptions, results and contribution, as well as its academic writing style.
+
+## Purpose
+
+What it is
+: A space to debate a paper's methods, assumptions, validity and writing, and to practise arguing about them.
+
+What it is not
+: A way to keep up to date with a specific field or subfield, although every paper has a clear link to GIScience. Members work on different topics, so selected papers will not always connect to each member's research.
+
+Why it matters
+: It develops transferable competences in the [ResearchComp](https://research-and-innovation.ec.europa.eu/jobs-research/researchcomp-european-competence-framework-researchers_en) framework, mainly *critical thinking*, *analytical thinking* and *evaluating research*.
+
+## Who takes part
+
+Open to all GEOTEC members: PhD students, faculty and other research profiles. Everyone takes a turn as facilitator.
+
+## Format
+
+| Item | Rule |
+|:-----|:-----|
+| Frequency | Monthly |
+| Duration | 60–70 minutes |
+| Papers per session | One |
+| Paper length | Maximum 15 pages |
+| Announcement | At least one week before the session |
+| Facilitator | One person per session, on a rotation published at the start of each semester |
+
+: Session format {#tbl-format}
+
+Each session follows the same structure:
+
+| Block | Led by | Time |
+|:------|:-------|-----:|
+| Context | Facilitator | 5 min |
+| Summary | Facilitator | 10 min |
+| Critical discussion | Everyone | 30–40 min |
+| Takeaways | Everyone | 5–10 min |
+
+: Session structure {#tbl-structure}
+
+## Roles
+
+Facilitator
+: Selects the paper using the shared [selection criteria](paper-selection-criteria.qmd), announces it one week ahead, gives the context and summary, and guides the discussion.
+
+Attendees
+: Read the paper before the session and bring one question or critique.
+
+## Ground rules
+
+::: {.callout-important appearance="simple"}
+1. Everyone reads the paper, not only the facilitator.
+2. Critique the paper, not the people.
+3. "I didn't understand X" is a welcome contribution.
+4. The shared guiding questions frame every discussion.
+:::
+
+## Record and review
+
+- Each session is archived on the group's Quarto website: paper, facilitator, date, slides and key takeaways (see the [minutes template](minutes-template.qmd)).
+- At the end of each semester (6 sessions), members hold a short retrospective and may propose changes to this charter.

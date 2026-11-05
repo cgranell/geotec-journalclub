@@ -1,0 +1,74 @@
+---
+title: "GEOTEC Journal Club"
+subtitle: "Paper selection criteria"
+author: "GEOTEC research group"
+date: last-modified
+lang: en
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    theme: cosmo
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: margin=2.5cm
+---
+
+The facilitator picks **one paper of at most 15 pages**, guided by the two core criteria below, and announces it to all GEOTEC members **at least one week before the session**.
+
+## Core criteria
+
+Every selected paper should meet **both** criteria:
+
+| Criterion | What to look for |
+|:----------|:-----------------|
+| **Relevance to the group** | A clear link to GIScience; topic, method or data of interest to several GEOTEC members, not only the facilitator |
+| **Methodological interest** | A method, design or validation approach worth dissecting, even outside members' own topics |
+
+: Core selection criteria {#tbl-criteria}
+
+::: {.callout-tip}
+## Why these criteria?
+Because the club trains critical reading rather than keeping up with a topic, a paper with rich methods or instructive writing is a better pick than one that is merely new or close to your own thesis.
+:::
+
+## Practical requirements
+
+- [ ] Maximum 15 pages (excluding references and appendices)
+- [ ] Accessible to all members: open access, or a PDF shared with everyone
+- [ ] Readable by non-specialists in the group with reasonable effort
+- [ ] Not already discussed in a previous session (check the archive)
+
+## Occasional picks
+
+- Classic or landmark papers that everyone should know
+- Recent preprints
+- Controversial papers, which often teach the most about critical reading and debate
+
+## Announcement
+
+At least one week before the session, the facilitator sends the following to all members (Geoinfo mailing list):
+
+1. Full reference and DOI or link to the PDF
+2. One or two sentences on why this paper was chosen
+3. A reminder to bring one question or critique, using the shared guiding questions, to the session
+
+::: {.callout-note collapse="true"}
+## Announcement email template
+
+> **Subject:** GEOTEC Journal Club – *session date* – *Paper title*
+>
+> Dear all,
+>
+> For our next Journal Club session (*date, time, room*), we will discuss:
+>
+> *Author(s) (Year). Title. Journal. DOI/link*
+>
+> **Why this paper:** *one or two sentences.*
+>
+> Please read it before the session and bring one question or critique, using the shared guiding questions.
+>
+> *Facilitator name*
+:::

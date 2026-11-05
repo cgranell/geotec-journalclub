@@ -1,0 +1,115 @@
+---
+# ------------------------------------------------------------------
+# GEOTEC Journal Club – session minutes template
+# Copy this file as sessions/YYYY-MM-DD-firstauthor.qmd and fill in
+# the YAML fields below; the header table is built from them.
+# ------------------------------------------------------------------
+title: "APA citation"
+subtitle: "Session NN · YYYY-MM-DD"
+description: "Paper title"
+date: 2026-01-01            # session date (YYYY-MM-DD)
+lang: en
+categories: [journal-club]  # add keywords, e.g. [journal-club, remote-sensing, GeoAI]
+
+session:
+  number: NN
+  time: "11:00–12:15"
+  facilitator: "Name Surname"
+  note-taker: "Name Surname"
+
+paper:
+  authors: "Surname, A., Surname, B."
+  year: 2025
+  title: "Paper title"
+  venue: "Journal or preprint server"
+  doi: "10.xxxx/xxxxx"
+  url: "https://doi.org/10.xxxx/xxxxx"
+  pages: 12
+  type: "regular"           # regular | classic | preprint | controversial
+
+format:
+  html:
+    toc: true
+    theme: cosmo
+  pdf:
+    papersize: a4
+    geometry: margin=2.5cm
+---
+
+## Session details
+
+| | |
+|:--|:--|
+| **Session** | {{< meta session.number >}} |
+| **Date and time** | {{< meta date >}}, {{< meta session.time >}} |
+| **Location** | {{< meta session.location >}} |
+| **Facilitator** | {{< meta session.facilitator >}} |
+| **Note-taker** | {{< meta session.note-taker >}} |
+
+**Attendees:** *Name 1, Name 2, Name 3, …* (*n* = ?)
+
+**Apologies:** *Name, …*
+
+## Paper discussed
+
+{{< meta paper.authors >}} ({{< meta paper.year >}}). *{{< meta paper.title >}}*. {{< meta paper.venue >}}. <{{< meta paper.url >}}>
+
+**Pick type:** {{< meta paper.type >}} · **Pages:** {{< meta paper.pages >}}
+
+**Why it was chosen** (from the facilitator's announcement):
+*One or two sentences.*
+
+## Summary of the paper
+
+*Three to five sentences in the group's own words: research question, data, method, main result.*
+
+## Discussion
+
+### Scientific contribution
+
+- *What is new? Is the claim supported by the evidence?*
+- *Strengths:*
+- *Weaknesses / limitations (acknowledged or not by the authors):*
+
+### Methods, design and validation
+
+- *Is the method appropriate to the question? Could it be reproduced (data, code, parameters)?*
+- *How is the result validated? What alternative design would we have chosen?*
+
+### Writing and presentation
+
+- *Structure, clarity of the abstract and introduction, use of figures and tables.*
+- *Something worth imitating in our own papers:*
+- *Something to avoid:*
+
+### Members' questions and critiques
+
+| Member | Question or critique | Group response / outcome |
+|:-------|:---------------------|:-------------------------|
+| | | |
+| | | |
+
+## Key takeaways
+
+1. *Main lesson for critical reading*
+2. *Main lesson for our own writing or research practice*
+3. *…*
+
+## Action items
+
+| Action | Owner | Due |
+|:-------|:------|:----|
+| | | |
+
+## Next session
+
+| | |
+|:--|:--|
+| **Date** | *YYYY-MM-DD* |
+| **Facilitator** | *Name Surname* |
+| **Paper announcement due** | *one week before the session* |
+
+::: {.callout-note collapse="true"}
+## Session feedback (optional)
+*What worked well in the format? What should change next time?*
+:::

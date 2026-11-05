@@ -3,9 +3,25 @@ project:
 
 website:
   title: "GEOTEC Journal Club"
+  description: "GEOTEC Journal Club"
+  site-url: "https://cgranell.github.io/geotec-journalclub/"
+  repo-url: "https://github.com/cgranell/geotec-journalclub"
+  
+  page-footer:
+    left: "[Journal Club](https://cgranell.github.io/geotec-journalclub/)"
+    right: "[GEOTEC website](https://geotec.uji.es/)"
+    
   navbar:
     left:
+      - href: charter.qmd
+        text: Charter
+      - href: paper-selection-criteria.qmd
+        text: Selection criteria
+
+    right:
       - href: index.qmd
+        text: List of papers
+
 
 format:
   html:
