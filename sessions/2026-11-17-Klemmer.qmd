@@ -84,10 +84,9 @@ format:
 
 ### Members' questions and critiques
 
-| Member | Question or critique | Group response / outcome |
-|:-------|:---------------------|:-------------------------|
-| | | |
-| | | |
+- *Question 1*
+- *Question 2*
+
 
 ## Key takeaways
 

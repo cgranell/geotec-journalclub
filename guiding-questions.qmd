@@ -1,0 +1,65 @@
+---
+title: "GEOTEC Journal Club"
+subtitle: "Guiding questions"
+author: "GEOTEC research group"
+date: last-modified
+lang: en
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: cosmo
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: margin=2.5cm
+---
+
+Everyone reads the paper, not only the facilitator. Use these questions **while reading** and bring at least one question or critique to the session; the facilitator uses them to moderate the critical discussion (see the [charter](charter.qmd)).
+
+## Scientific contribution
+
+- What is the research question, and why does it matter?
+- What is the claimed contribution, and is it new relative to prior work?
+- Is the data appropriate? How was it collected and preprocessed?
+- Are the methods sound? What assumptions are hidden?
+- Do the results support the conclusions?
+- What is reproducible? Are code and data available?
+- What would we do differently, or how could we use this?
+
+## GIScience or spatial checks
+
+::: {.callout-note appearance="simple"}
+For papers with spatial data or methods, you may also ask:
+:::
+
+Scale and MAUP
+: Would results change with a different spatial unit or resolution?
+
+Validation
+: Does it account for spatial autocorrelation (spatial vs. random cross-validation)?
+
+CRS and resolution
+: Are coordinate reference system and resolution choices justified?
+
+Generalisation
+: Would the findings transfer to other regions?
+
+## Writing style
+
+- Do the title and abstract state the contribution clearly?
+- Does the introduction motivate the problem and position it in the literature?
+- Can you follow the methods well enough to replicate them?
+- Do figures and tables carry the argument on their own?
+- Are limitations stated honestly?
+- What would you borrow from or avoid in this paper when writing your own?
+
+## Your preparation
+
+::: {.callout-tip}
+## Before the session, note:
+
+- [ ] One **strength** of the paper
+- [ ] One **weakness** or open question
+- [ ] One thing you would **apply** to your own research or writing
+:::

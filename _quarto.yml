@@ -17,10 +17,8 @@ website:
         text: Charter
       - href: paper-selection-criteria.qmd
         text: Selection criteria
-
-    right:
-      - href: index.qmd
-        text: Session minutes
+      - href: guiding-questions.qmd
+        text: Guiding questions
 
 
 format:
