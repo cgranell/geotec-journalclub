@@ -9,119 +9,119 @@
   {
     "objectID": "guiding-questions.html",
     "href": "guiding-questions.html",
-    "title": "GEOTEC Journal Club",
+    "title": "Guiding questions",
     "section": "",
     "text": "Everyone reads the paper, not only the facilitator. Use these questions while reading and bring at least one question or critique to the session; the facilitator uses them to moderate the critical discussion (see the charter)."
   },
   {
     "objectID": "guiding-questions.html#scientific-contribution",
     "href": "guiding-questions.html#scientific-contribution",
-    "title": "GEOTEC Journal Club",
+    "title": "Guiding questions",
     "section": "Scientific contribution",
     "text": "Scientific contribution\n\nWhat is the research question, and why does it matter?\nWhat is the claimed contribution, and is it new relative to prior work?\nIs the data appropriate? How was it collected and preprocessed?\nAre the methods sound? What assumptions are hidden?\nDo the results support the conclusions?\nWhat is reproducible? Are code and data available?\nWhat would we do differently, or how could we use this?"
   },
   {
     "objectID": "guiding-questions.html#giscience-or-spatial-checks",
     "href": "guiding-questions.html#giscience-or-spatial-checks",
-    "title": "GEOTEC Journal Club",
+    "title": "Guiding questions",
     "section": "GIScience or spatial checks",
     "text": "GIScience or spatial checks\n\n\n\n\n\n\nFor papers with spatial data or methods, you may also ask:\n\n\n\n\nScale and MAUP\n\nWould results change with a different spatial unit or resolution?\n\nValidation\n\nDoes it account for spatial autocorrelation (spatial vs. random cross-validation)?\n\nCRS and resolution\n\nAre coordinate reference system and resolution choices justified?\n\nGeneralisation\n\nWould the findings transfer to other regions?"
   },
   {
     "objectID": "guiding-questions.html#writing-style",
     "href": "guiding-questions.html#writing-style",
-    "title": "GEOTEC Journal Club",
+    "title": "Guiding questions",
     "section": "Writing style",
     "text": "Writing style\n\nDo the title and abstract state the contribution clearly?\nDoes the introduction motivate the problem and position it in the literature?\nCan you follow the methods well enough to replicate them?\nDo figures and tables carry the argument on their own?\nAre limitations stated honestly?\nWhat would you borrow from or avoid in this paper when writing your own?"
   },
   {
     "objectID": "guiding-questions.html#your-preparation",
     "href": "guiding-questions.html#your-preparation",
-    "title": "GEOTEC Journal Club",
+    "title": "Guiding questions",
     "section": "Your preparation",
     "text": "Your preparation\n\n\n\n\n\n\nTipBefore the session, note:\n\n\n\n\nOne strength of the paper\nOne weakness or open question\nOne thing you would apply to your own research or writing"
   },
   {
     "objectID": "paper-selection-criteria.html",
     "href": "paper-selection-criteria.html",
-    "title": "GEOTEC Journal Club",
+    "title": "Paper selection criteria",
     "section": "",
     "text": "The facilitator picks one paper of at most 15 pages, guided by the two core criteria below, and announces it to all GEOTEC members at least one week before the session."
   },
   {
     "objectID": "paper-selection-criteria.html#core-criteria",
     "href": "paper-selection-criteria.html#core-criteria",
-    "title": "GEOTEC Journal Club",
+    "title": "Paper selection criteria",
     "section": "Core criteria",
     "text": "Core criteria\nEvery selected paper should meet both criteria:\n\n\n\nTable 1: Core selection criteria\n\n\n\n\n\n\n\n\n\nCriterion\nWhat to look for\n\n\n\n\nRelevance to the group\nA clear link to GIScience; topic, method or data of interest to several GEOTEC members, not only the facilitator\n\n\nMethodological interest\nA method, design or validation approach worth dissecting, even outside members’ own topics\n\n\n\n\n\n\n\n\n\n\n\n\nTipWhy these criteria?\n\n\n\nBecause the club trains critical reading rather than keeping up with a topic, a paper with rich methods or instructive writing is a better pick than one that is merely new or close to your own thesis."
   },
   {
     "objectID": "paper-selection-criteria.html#practical-requirements",
     "href": "paper-selection-criteria.html#practical-requirements",
-    "title": "GEOTEC Journal Club",
+    "title": "Paper selection criteria",
     "section": "Practical requirements",
     "text": "Practical requirements\n\nMaximum 15 pages (excluding references and appendices)\nAccessible to all members: open access, or a PDF shared with everyone\nReadable by non-specialists in the group with reasonable effort\nNot already discussed in a previous session (check the archive)"
   },
   {
     "objectID": "paper-selection-criteria.html#occasional-picks",
     "href": "paper-selection-criteria.html#occasional-picks",
-    "title": "GEOTEC Journal Club",
+    "title": "Paper selection criteria",
     "section": "Occasional picks",
     "text": "Occasional picks\n\nClassic or landmark papers that everyone should know\nRecent preprints\nControversial papers, which often teach the most about critical reading and debate"
   },
   {
     "objectID": "paper-selection-criteria.html#announcement",
     "href": "paper-selection-criteria.html#announcement",
-    "title": "GEOTEC Journal Club",
+    "title": "Paper selection criteria",
     "section": "Announcement",
     "text": "Announcement\nAt least one week before the session, the facilitator sends the following to all members (Geoinfo mailing list):\n\nFull reference and DOI or link to the PDF\nOne or two sentences on why this paper was chosen\nA reminder to bring one question or critique, using the shared guiding questions, to the session\n\n\n\n\n\n\n\nNoteAnnouncement email template\n\n\n\n\n\n\nSubject: GEOTEC Journal Club – session date – Paper title\nDear all,\nFor our next Journal Club session (date, time, room), we will discuss:\nAuthor(s) (Year). Title. Journal. DOI/link\nWhy this paper: one or two sentences.\nPlease read it before the session and bring one question or critique, using the shared guiding questions.\nFacilitator name"
   },
   {
     "objectID": "charter.html",
     "href": "charter.html",
-    "title": "GEOTEC Journal Club",
+    "title": "Charter",
     "section": "",
     "text": "The GEOTEC Journal Club is a monthly, 60–70 minute session where members discuss one paper to foster critical reading, debate and presentation: judging its methods, assumptions, results and contribution, as well as its academic writing style."
   },
   {
     "objectID": "charter.html#purpose",
     "href": "charter.html#purpose",
-    "title": "GEOTEC Journal Club",
+    "title": "Charter",
     "section": "Purpose",
     "text": "Purpose\n\nWhat it is\n\nA space to debate a paper’s methods, assumptions, validity and writing, and to practise arguing about them.\n\nWhat it is not\n\nA way to keep up to date with a specific field or subfield, although every paper has a clear link to GIScience. Members work on different topics, so selected papers will not always connect to each member’s research.\n\nWhy it matters\n\nIt develops transferable competences in the ResearchComp framework, mainly critical thinking, analytical thinking and evaluating research."
   },
   {
     "objectID": "charter.html#who-takes-part",
     "href": "charter.html#who-takes-part",
-    "title": "GEOTEC Journal Club",
+    "title": "Charter",
     "section": "Who takes part",
     "text": "Who takes part\nOpen to all GEOTEC members: PhD students, faculty and other research profiles. Everyone takes a turn as facilitator."
   },
   {
     "objectID": "charter.html#format",
     "href": "charter.html#format",
-    "title": "GEOTEC Journal Club",
+    "title": "Charter",
     "section": "Format",
     "text": "Format\n\n\n\nTable 1: Session format\n\n\n\n\n\n\n\n\n\nItem\nRule\n\n\n\n\nFrequency\nMonthly\n\n\nDuration\n60–70 minutes\n\n\nPapers per session\nOne\n\n\nPaper length\nMaximum 15 pages\n\n\nAnnouncement\nAt least one week before the session\n\n\nFacilitator\nOne person per session, on a rotation published at the start of each semester\n\n\n\n\n\n\nEach session follows the same structure:\n\n\n\nTable 2: Session structure\n\n\n\n\n\nBlock\nLed by\nTime\n\n\n\n\nContext\nFacilitator\n5 min\n\n\nSummary\nFacilitator\n10 min\n\n\nCritical discussion\nEveryone\n30–40 min\n\n\nTakeaways\nEveryone\n5–10 min"
   },
   {
     "objectID": "charter.html#roles",
     "href": "charter.html#roles",
-    "title": "GEOTEC Journal Club",
+    "title": "Charter",
     "section": "Roles",
     "text": "Roles\n\nFacilitator\n\nSelects the paper using the shared selection criteria, announces it one week ahead, gives the context and summary, and guides the discussion.\n\nAttendees\n\nRead the paper before the session and bring one question or critique."
   },
   {
     "objectID": "charter.html#ground-rules",
     "href": "charter.html#ground-rules",
-    "title": "GEOTEC Journal Club",
+    "title": "Charter",
     "section": "Ground rules",
     "text": "Ground rules\n\n\n\n\n\n\n\nEveryone reads the paper, not only the facilitator.\nCritique the paper, not the people.\n“I didn’t understand X” is a welcome contribution.\nThe shared guiding questions frame every discussion."
   },
   {
     "objectID": "charter.html#record-and-review",
     "href": "charter.html#record-and-review",
-    "title": "GEOTEC Journal Club",
+    "title": "Charter",
     "section": "Record and review",
     "text": "Record and review\n\nEach session is archived on the group’s Quarto website: paper, facilitator, date, slides and key takeaways (see the minutes template).\nAt the end of each semester (6 sessions), members hold a short retrospective and may propose changes to this charter."
   },
