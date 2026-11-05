@@ -75,5 +75,5 @@ Attendees
 
 ## Record and review
 
-- Each session is archived on the group's Quarto website: paper, facilitator, date, slides and key takeaways (see the [minutes template](minutes-template.qmd)).
+- Each session is archived on the group's Quarto website: paper, facilitator, date, slides and key takeaways (see [minutes](index.qmd)).
 - At the end of each semester (6 sessions), members hold a short retrospective and may propose changes to this charter.

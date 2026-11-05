@@ -4,12 +4,12 @@
 # Copy this file as sessions/YYYY-MM-DD-firstauthor.qmd and fill in
 # the YAML fields below; the header table is built from them.
 # ------------------------------------------------------------------
-title: "APA citation"
-subtitle: "Session NN · YYYY-MM-DD"
+title: "Session NN · YYYY-MM-DD"
+subtitle: "APA citation"
 description: "Paper title"
 date: 2026-01-01            # session date (YYYY-MM-DD)
 lang: en
-categories: [journal-club]  # add keywords, e.g. [journal-club, remote-sensing, GeoAI]
+categories: [foundational-models]  # add keywords, e.g. [remote-sensing, GeoAI]
 
 session:
   number: NN

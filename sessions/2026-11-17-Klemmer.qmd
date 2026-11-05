@@ -4,12 +4,12 @@
 # Copy this file as sessions/YYYY-MM-DD-firstauthor.qmd and fill in
 # the YAML fields below; the header table is built from them.
 # ------------------------------------------------------------------
-title: "Klemmer et al., 2026"
-subtitle: "Session 01 · 2026-11-17"
+title: "Session 01 · 2026-11-17"
+subtitle: "Klemmer et al., 2026"
 description: "Earth Embeddings: Toward artificial intelligence-centric representations of our planet"
 date: 2026-11-17            # session date (YYYY-MM-DD)
 lang: en
-categories: [journal-club, earth-embeddings]  # add keywords, e.g. [journal-club, remote-sensing, GeoAI]
+categories: [earth-embeddings]  # add keywords, e.g. [remote-sensing, GeoAI]
 
 session:
   number: 01
