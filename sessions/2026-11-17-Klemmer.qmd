@@ -12,7 +12,7 @@ lang: en
 categories: [earth-embeddings]  # add keywords, e.g. [remote-sensing, GeoAI]
 
 session:
-  number: 01
+  number: "01"
   time: "11:00–12:15"
   facilitator: "Carlos Granell"
   note-taker: "Carlos Granell"
@@ -45,13 +45,13 @@ format:
 | **Facilitator** | {{< meta session.facilitator >}} |
 | **Note-taker** | {{< meta session.note-taker >}} |
 
-**Attendees:** *Name 1, Name 2, Name 3, …* (*n* = ?)
+**Attendees:** *Alejandro, Celia, Saadoon, Marc, Javier, Zakarias, Carlos* (*n* = 7)
 
-**Apologies:** *Name, …*
+**Apologies:** *Leo, Sergi*
 
 ## Paper discussed
 
-{{< meta paper.authors >}} ({{< meta paper.year >}}). *{{< meta paper.title >}}*. {{< meta paper.venue >}}. <{{< meta paper.url >}}>
+{{< meta paper.authors >}} ({{< meta paper.year >}}). *{{< meta paper.title >}}*. {{< meta paper.venue >}}. [{{< meta paper.url >}}]({{< meta paper.url >}})
 
 **Pick type:** {{< meta paper.type >}} · **Pages:** {{< meta paper.pages >}}
 
