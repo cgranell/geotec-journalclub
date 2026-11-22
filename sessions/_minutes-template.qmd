@@ -60,51 +60,26 @@ format:
 
 ## Summary of the paper
 
-The article provide *Three to five sentences in the group's own words: research question, data, method, main result.*
-
-- This is a perspective paper, not an empirical study: it asks how Earth embeddings, vector representations of locations in space and time, should be defined, built, shared and used, and what research agenda the community needs. 
-- It uses no new data; the argument rests on a synthesis of recent models (e.g. MOSAIKS, SatCLIP, GeoCLIP, SINR, AlphaEarth, Tessera, Major TOM) and an estimation of compute, storage and carbon costs. 
-- The authors give a formal definition that separates explicit models (embedding raw geolocated data) from implicit ones (location encoders that store information in their weights), then name four functions (compression, fusion, interpolation, interoperability), four uses (direct prediction, geographic conditioning, synthesis/simulation, geosemantic search) and two ways of delivering embeddings (shipping the model vs. shipping a precomputed database). 
-- Their main claim is that Earth embeddings will become the dominant format for geospatial data in the AI age, and they end with calls to action on benchmarks, interpretability, openness, "Earth embedding cards" and shared infrastructure.
-
+*Three to five sentences in the group's own words: research question, data, method, main result.*
 
 ## Discussion
 
 ### Scientific contribution
 
-
-- *What is new? Is the claim supported by the evidence?* What's new is the framing, not a result. The paper offers a shared vocabulary (explicit/implicit/hybrid, model vs. database interface, four functions) for a field that is fragmented. It also proposes a reporting template (Earth embedding cards) and puts a price on precomputed embedding products. The central claim, that embeddings will be "the dominant format of geospatial data", is proposed rather than shown. The support is citations to individual studies, and the paper doesn't quantify how often embeddings beat task-specific features, or by how much.
-
+- *What is new? Is the claim supported by the evidence?*
 - *Strengths:*
-  - The explicit vs. implicit taxonomy and the model vs. database interface are simple, useful and easy to teach.
-  - The paper recognises limits: embeddings are constrained by their input data (SatCLIP can't see ocean currents), implicit models have coarse effective resolution, and interpretability is poor.
-  - The cost and carbon estimate is concrete and has a counter-intuitive message: storage and delivery, not GPU inference, dominate cost and footprint, which explains why precomputed products come mainly from large corporations.
-  - It addresses openness questions (the open weight / open source / open process levels) and notes that AlphaEarth releases embeddings but not the model.
-  - The embedding card template is actionable now, including questions on spatial/temporal assumptions and evaluation across regionss.
-  
 - *Weaknesses / limitations (acknowledged or not by the authors):*
-  - There's no empirical comparison: explicit, implicit and hybrid approaches are never evaluated side by side, even on a small benchmark.
-  - The paper's own cost example works against the "compression" function. 108 TB of PlanetScope imagery yields about 432 TB of 64-D pixel-level embeddings, four times the raw data. Compression holds for patch-level or implicit embeddings, not for dense pixel products. The authors don't comment on this.
-  - Spatial concepts are thin. Scale shows up as "resolution", but scale effects or MAUP aren't discussed. Spatial autocorrelation appears only as a future learning objective, not as a validation risk, although the evaluation box does mention interpolation/extrapolation and spatial bias in labels.
-  - Conflicts of interest aren't discussed. Several authors developed the models the paper highlights (SatCLIP, RANGE, Major TOM), and the lead author is affiliated with a start-up (LGND AI) in the "commercial interest" the paper mentions.
-  - Uncertainty, versioning and temporal drift of embedding products get only a line in the card template, and so does coverage bias, e.g. regions with fewer data or labels.
-  
+
 ### Methods, design and validation
 
-- *Is the method appropriate to the question? Could it be reproduced (data, code, parameters)?* A narrative perspective harmonises concepts and setts a research agenda. But the paper doesn't say how literature was selected, so we can't tell whether its picture of the field is complete or representative. The only quantitative part, the cost estimate, could be partly reproduced. There's no code or data to reproduce. The paper itself is CC BY 4.0.
-
-- *How is the result validated? What alternative design would we have chosen?* There is no validation in the empirical sense: the argument rests on cited studies. Alternatives we could have chosen:
-  - a systematic or scoping review with explicit inclusion criteria;
-  - a small common benchmark comparing one explicit, one implicit and one hybrid embedding on two or three downstream tasks, using spatial rather than random cross-validation and testing both interpolation and extrapolation;
-  - a sensitivity analysis of the cost estimate (patch vs. pixel level, number of dimensions, etc.).
+- *Is the method appropriate to the question? Could it be reproduced (data, code, parameters)?*
+- *How is the result validated? What alternative design would we have chosen?*
 
 ### Writing and presentation
 
-- *Structure, clarity of the abstract and introduction, use of figures and tables.* The structure (central functions → user perspective → developer perspective → community perspective → conclusion) is clear and easy to navigate. The abstract states the contribution but reads more like a manifesto than a summary. The introduction positions embeddings well against GeoFMs and the NLP origin of embeddings, using boxes. Figures 1–4 are clear conceptual schematics, but there are no tables. A table comparing the models mentioned (explicit/implicit, patch/pixel, resolution, interface, openness level) would have carried much of the argument on its own. In the accepted (pre-pagination) layout, the many boxes interrupt the main text and make it hard to follow.
-
-- *Something worth imitating in our own papers:* Depends on the paper type (perspective, research, survey). For drafting; a short formal definition box early on, which determines the vocabulary for the rest of the paper; separating user, developer and community perspectives; ending sections with concrete calls to action; offering a reusable artefact such as the card template.
-
-- *Something to avoid:* strong forward-looking claims ("will emerge as the dominant format") that the evidence can't test; long lists of models with no comparison; leaving the literature-selection method unstated in a paper that claims to harmonise a field.
+- *Structure, clarity of the abstract and introduction, use of figures and tables.*
+- *Something worth imitating in our own papers:*
+- *Something to avoid:*
 
 ### Members' questions and critiques
 
@@ -127,8 +102,8 @@ The article provide *Three to five sentences in the group's own words: research 
 
 | | |
 |:--|:--|
-| **Date** | *2026-12-16* |
-| **Facilitator** | *Zakarias* |
+| **Date** | *YYYY-MM-DD* |
+| **Facilitator** | *Name Surname* |
 | **Paper announcement due** | *one week before the session* |
 
 ::: {.callout-note collapse="true"}
