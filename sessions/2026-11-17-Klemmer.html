@@ -131,7 +131,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#summary-of-the-paper" id="toc-summary-of-the-paper" class="nav-link" data-scroll-target="#summary-of-the-paper">Summary of the paper</a></li>
   <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a>
   <ul class="collapse">
-  <li><a href="#scientific-contribution" id="toc-scientific-contribution" class="nav-link" data-scroll-target="#scientific-contribution">Scientific contribution</a></li>
   <li><a href="#methods-design-and-validation" id="toc-methods-design-and-validation" class="nav-link" data-scroll-target="#methods-design-and-validation">Methods, design and validation</a></li>
   <li><a href="#writing-and-presentation" id="toc-writing-and-presentation" class="nav-link" data-scroll-target="#writing-and-presentation">Writing and presentation</a></li>
   <li><a href="#members-questions-and-critiques" id="toc-members-questions-and-critiques" class="nav-link" data-scroll-target="#members-questions-and-critiques">Members’ questions and critiques</a></li>
@@ -217,31 +216,52 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="summary-of-the-paper" class="level2">
 <h2 class="anchored" data-anchor-id="summary-of-the-paper">Summary of the paper</h2>
-<p><em>Three to five sentences in the group’s own words: research question, data, method, main result.</em></p>
+<ul>
+<li>This is a perspective paper, not an empirical study: it asks how Earth embeddings, vector representations of locations in space and time, should be defined, built, shared and used, and what research agenda the community needs.</li>
+<li>It uses no new data; the argument rests on a synthesis of recent models (e.g.&nbsp;MOSAIKS, SatCLIP, GeoCLIP, SINR, AlphaEarth, Tessera, Major TOM) and an estimation of compute, storage and carbon costs.</li>
+<li>The authors give a formal definition that separates explicit models (embedding raw geolocated data) from implicit ones (location encoders that store information in their weights), then name four functions (compression, fusion, interpolation, interoperability), four uses (direct prediction, geographic conditioning, synthesis/simulation, geosemantic search) and two ways of delivering embeddings (shipping the model vs.&nbsp;shipping a precomputed database).</li>
+<li>Their main claim is that Earth embeddings will become the dominant format for geospatial data in the AI age, and they end with calls to action on benchmarks, interpretability, openness, “Earth embedding cards” and shared infrastructure.</li>
+</ul>
 </section>
 <section id="discussion" class="level2">
 <h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
-<section id="scientific-contribution" class="level3">
-<h3 class="anchored" data-anchor-id="scientific-contribution">Scientific contribution</h3>
 <ul>
-<li><em>What is new? Is the claim supported by the evidence?</em></li>
-<li><em>Strengths:</em></li>
-<li><em>Weaknesses / limitations (acknowledged or not by the authors):</em></li>
+<li><p><em>What is new? Is the claim supported by the evidence?</em> What’s new is the framing, not a result. The paper offers a shared vocabulary (explicit/implicit/hybrid, model vs.&nbsp;database interface, four functions) for a field that is fragmented. It also proposes a reporting template (Earth embedding cards) and puts a price on precomputed embedding products. The central claim, that embeddings will be “the dominant format of geospatial data”, is proposed rather than shown. The support is citations to individual studies, and the paper doesn’t quantify how often embeddings beat task-specific features, or by how much.</p></li>
+<li><p><em>Strengths:</em></p>
+<ul>
+<li>The explicit vs.&nbsp;implicit taxonomy and the model vs.&nbsp;database interface are simple, useful and easy to teach.</li>
+<li>The paper recognises limits: embeddings are constrained by their input data (SatCLIP can’t see ocean currents), implicit models have coarse effective resolution, and interpretability is poor.</li>
+<li>The cost and carbon estimate is concrete and has a counter-intuitive message: storage and delivery, not GPU inference, dominate cost and footprint, which explains why precomputed products come mainly from large corporations.</li>
+<li>It addresses openness questions (the open weight / open source / open process levels) and notes that AlphaEarth releases embeddings but not the model.</li>
+<li>The embedding card template is actionable now, including questions on spatial/temporal assumptions and evaluation across regionss.</li>
+</ul></li>
+<li><p><em>Weaknesses / limitations (acknowledged or not by the authors):</em></p>
+<ul>
+<li>There’s no empirical comparison: explicit, implicit and hybrid approaches are never evaluated side by side, even on a small benchmark.</li>
+<li>The paper’s own cost example works against the “compression” function. 108 TB of PlanetScope imagery yields about 432 TB of 64-D pixel-level embeddings, four times the raw data. Compression holds for patch-level or implicit embeddings, not for dense pixel products. The authors don’t comment on this.</li>
+<li>Spatial concepts are thin. Scale shows up as “resolution”, but scale effects or MAUP aren’t discussed. Spatial autocorrelation appears only as a future learning objective, not as a validation risk, although the evaluation box does mention interpolation/extrapolation and spatial bias in labels.</li>
+<li>Conflicts of interest aren’t discussed. Several authors developed the models the paper highlights (SatCLIP, RANGE, Major TOM), and the lead author is affiliated with a start-up (LGND AI) in the “commercial interest” the paper mentions.</li>
+<li>Uncertainty, versioning and temporal drift of embedding products get only a line in the card template, and so does coverage bias, e.g.&nbsp;regions with fewer data or labels.</li>
+</ul></li>
 </ul>
-</section>
 <section id="methods-design-and-validation" class="level3">
 <h3 class="anchored" data-anchor-id="methods-design-and-validation">Methods, design and validation</h3>
 <ul>
-<li><em>Is the method appropriate to the question? Could it be reproduced (data, code, parameters)?</em></li>
-<li><em>How is the result validated? What alternative design would we have chosen?</em></li>
+<li><p><em>Is the method appropriate to the question? Could it be reproduced (data, code, parameters)?</em> A narrative perspective harmonises concepts and setts a research agenda. But the paper doesn’t say how literature was selected, so we can’t tell whether its picture of the field is complete or representative. The only quantitative part, the cost estimate, could be partly reproduced. There’s no code or data to reproduce. The paper itself is CC BY 4.0.</p></li>
+<li><p><em>How is the result validated? What alternative design would we have chosen?</em> There is no validation in the empirical sense: the argument rests on cited studies. Alternatives we could have chosen:</p>
+<ul>
+<li>a systematic or scoping review with explicit inclusion criteria;</li>
+<li>a small common benchmark comparing one explicit, one implicit and one hybrid embedding on two or three downstream tasks, using spatial rather than random cross-validation and testing both interpolation and extrapolation;</li>
+<li>a sensitivity analysis of the cost estimate (patch vs.&nbsp;pixel level, number of dimensions, etc.).</li>
+</ul></li>
 </ul>
 </section>
 <section id="writing-and-presentation" class="level3">
 <h3 class="anchored" data-anchor-id="writing-and-presentation">Writing and presentation</h3>
 <ul>
-<li><em>Structure, clarity of the abstract and introduction, use of figures and tables.</em></li>
-<li><em>Something worth imitating in our own papers:</em></li>
-<li><em>Something to avoid:</em></li>
+<li><p><em>Structure, clarity of the abstract and introduction, use of figures and tables.</em> The structure (central functions → user perspective → developer perspective → community perspective → conclusion) is clear and easy to navigate. The abstract states the contribution but reads more like a manifesto than a summary. The introduction positions embeddings well against GeoFMs and the NLP origin of embeddings, using boxes. Figures 1–4 are clear conceptual schematics, but there are no tables. A table comparing the models mentioned (explicit/implicit, patch/pixel, resolution, interface, openness level) would have carried much of the argument on its own. In the accepted (pre-pagination) layout, the many boxes interrupt the main text and make it hard to follow.</p></li>
+<li><p><em>Something worth imitating in our own papers:</em> Depends on the paper type (perspective, research, survey). For drafting; a short formal definition box early on, which determines the vocabulary for the rest of the paper; separating user, developer and community perspectives; ending sections with concrete calls to action; offering a reusable artefact such as the card template.</p></li>
+<li><p><em>Something to avoid:</em> strong forward-looking claims (“will emerge as the dominant format”) that the evidence can’t test; long lists of models with no comparison; leaving the literature-selection method unstated in a paper that claims to harmonise a field.</p></li>
 </ul>
 </section>
 <section id="members-questions-and-critiques" class="level3">
@@ -285,11 +305,11 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><strong>Date</strong></td>
-<td style="text-align: left;"><em>YYYY-MM-DD</em></td>
+<td style="text-align: left;"><em>2026-12-16</em></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>Facilitator</strong></td>
-<td style="text-align: left;"><em>Name Surname</em></td>
+<td style="text-align: left;"><em>Zakarias</em></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><strong>Paper announcement due</strong></td>
